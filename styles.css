@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: lato;
+}
+
+body{
+    background-color: #2B2D2F;
+    background-repeat: repeat-y;
+    overflow-x: hidden;
+    
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.home-intro{
+    font-size: 30px;
+    text-shadow: 0px 0px 4px white;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 600px;
+    text-shadow: 0px 0px 5px gray;
+    font-family: 'krungthep';
+    src: url(font/krungthep.ttf);
+}
+
+p{
+    font-size: 17px;
+    word-spacing: 1px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header{
+    width: 150%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    line-height: 80px;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+}
+
+.box-20 h2{
+    padding-left: 2px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.box-80{
+    width: 100%;
+    height: auto;
+}
+
+.box-80 ul{
+    float: right;
+}
+
+.box-80 ul li{
+    float: left;
+}
+
+.box-80 ul li a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: 600px;
+    padding: 0px 45px;
+    text-align: center;
+    transition: all 0.3s;
+
+}
+
+.box-80 ul li a:hover{
+    background-color: maroon;
+}
+
+.section-headings{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Impact";
+    color: aliceblue;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    padding-top: 18px;
+}
+
+.p1{
+    text-shadow: 0px 0px 3px white;
+    font-weight: 400px;
+    font-size: 50px;
+    width: 50%;
+}
+.p2{
+    text-shadow: 0px 0px 3px red;
+    font-weight: 400px;
+}
+.p3{
+    text-shadow: 0px 0px 3px cadetblue;
+    font-weight: 400px;
+}
+.p4{
+    text-shadow: 0px 0px 3px gold;
+    font-weight: 400px;
+}
+
+.page{
+    width: 100%;
+    height: 1000px;
+}
+
+.img50-right{
+    float: right;
+    padding-right: 30px;
+    width: 40%;
+    
+}
+.align-right{
+    width: 40%;
+    display: -webkit-inline-box;
+    color: aliceblue;
+
+}
+
+.imgExtendPage{
+    padding-top: 250px;
+}
+
+.pHigh{
+    color: #2B2D2F;
+    padding-top: 800px;
+    position: fixed;
+}
+
+.reduceIMGSize{
+    border-radius: 30%;
+    width: 23%;
+    height: 52%;
+    padding-top: 50px;
+}
+.img5050-right{
+    float: left;
+    width: 50%;
+    height: 90%;
+    
+}
+.img5050-right:hover{
+    background-color: white;
+    
+}
+
+.contactInfo{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 200px;
+}
+.contactInfo ul li a{
+    color: aliceblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.contactInfo ul li a:hover{
+    color: maroon;
+}
+
+
+.aboutMeList ul li{
+    float: left;
+    padding-top: 800px;
+}
+
+.aboutMeList a{
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    border: 2px solid black;
+}
+
+.aboutMeList a:hover{
+    background-color: maroon;
+}
+
+.footerStyle{
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+
+.textBlockLeft{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+    width: 50%;
+    height: 60%;
+    background-color: antiquewhite;
+    border: 6px solid black;
+}
+.textBlockLeftExtended{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+    width: 50%;
+    height: 70%;
+    background-color: antiquewhite;
+    border: 6px solid black;
+}
+.textBlockLeftShortened{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+    width: 50%;
+    height: 45%;
+    background-color: antiquewhite;
+    border: 6px solid black;
+}
+
+.fixedRightAcademics{
+    float: right;
+    padding-top: 70px;
+    padding-right: 15px;
+    width: 650px;
+    height: 390px;
+}
+.fixedRightAcademicsCompensateUp{
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 620px;
+    height: 340px;
+}
+
